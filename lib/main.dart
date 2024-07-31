@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
+    // build context is a class it telling the location of SplashScreen
    return const MaterialApp(
     debugShowCheckedModeBanner: false,
      home: SplashScreen(),
